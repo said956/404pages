@@ -1,2 +1,153 @@
 /* CSS 404 PAGE D'ERREUR SAID 20/05/20 */
 
+body {
+    width: 50%;
+    margin: auto;
+}
+h1 {
+    max-width: 100%;
+    height: auto;
+    /* margin-left: 200px; */
+}
+.bouton {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    /* margin-left: 200px; */
+}
+.bouton a {
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    background:url("bouton-noir.png") no-repeat;
+    color:white;
+    text-decoration:none;
+    }
+.bouton a:hover {
+    background:url("bouton-noir-2.png") no-repeat;
+}
+.example {
+    padding: 20px;
+    color: white;
+}
+
+img {
+    max-width: 100% ;
+    height: auto;
+}
+div.bouton {
+    background-color: white;
+}
+div {
+    background-color: yellow;
+    padding: 20px;
+  }
+
+/* Extra small devices (phones, 300px and down) */
+@media only screen and (max-width: 480px) {
+  .example {
+      background: red;
+  }
+  .medium {
+    display: inline-block;
+  }
+  .large {
+      display: inline-block;
+  }
+  .petit h3 {
+      text-align: left;
+      color: red;
+  }
+  .petit p {
+      font-size: 10px;
+  }
+  .medium h3 {
+    text-align: center;
+    color: green;
+  }
+  .medium p {
+    font-size: 20px;
+  }
+  .large h3 {
+      text-align: right;
+      color: blue;
+  }
+  .large p {
+      font-size: 30px;
+  }
+}
+  
+/* Small devices (portrait tablets and large phones, 300px and up) */
+@media only screen and (min-width: 480px) {
+  .example {
+      background: green;
+  }
+  div.petit {
+      display: inline-block;
+      text-align: left;
+      width: auto;
+  }
+  div.medium {
+    display: inline-block;
+    text-align: right;
+  }
+  .petit h3 {
+      text-align: left;
+      color: red;
+  }
+  .petit p {
+      font: 1em sans-serif;
+  }
+  div.large {
+      display: block;
+  }
+  .medium h3 {
+    text-align: center;
+    color: green;
+  }
+  .medium p {
+    font-size: 30px;
+  }
+  .large h3 {
+    text-align: right;
+    color: blue;
+  }
+  .large p {
+    font-size: 50px;
+  }
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 650px) {
+  .example {
+      background: blue;
+  }
+  div.petit {
+    display: none;
+  }
+  div.medium {
+      display: none;
+  }
+  div.large {
+      display: block;
+  }  
+  .large h3 {
+    text-align: right;
+    color: blue;
+  }
+  .large p {
+    font-size: 50px;
+  }
+} 
+  
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 650px) {
+  .example {background: orange;}  
+}   */
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 600px) {
+  .example {background: pink;} 
+}  */
