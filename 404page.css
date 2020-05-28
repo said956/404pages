@@ -3,6 +3,7 @@
 body {
     width: 50%;
     margin: auto;
+    background-image: url("img/banner_h1_1.jpg");
 }
 h1 {
     max-width: 100%;
